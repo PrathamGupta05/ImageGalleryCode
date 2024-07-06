@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery - Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Picture Logo of gallery -->
+    <p class="H1">gallery</p>
+    <!-- Navbar type Container -->
+    <div class="box1">
+        <ul>
+            <button class="f-b1" data-filter="all">All</button>
+            <button class="f-b1" data-filter="parasites">Parasites</button>
+            <button class="f-b1" data-filter="saprophytes">Saprophytes</button>
+            <button class="f-b1" data-filter="grasshoppers">Grasshoppers</button>
+            <button class="f-b1" data-filter="wasps">Wasps</button>
+        </ul>
+        <!-- Logo Image -->
+    </div>
+    <div class="I1">
+        <img id="Img1" src="LogoImage.jpg" alt="Logo">
+    </div>
+    <!-- Images of the gallery -->
+        <!-- First Section -->
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="P1.jpg" alt="Image 1" class="ImageItem parasites">
+        </div>
+        <div class="gallery-item">
+            <img src="P2.jpg" alt="Image 2" class="ImageItem parasites">
+        </div>
+        <div class="gallery-item">
+            <img src="P3.jpg" alt="Image 3" class="ImageItem parasites">
+        </div>
+        <div class="gallery-item">
+            <img src="P4.jpg" alt="Image 4" class="ImageItem parasites">
+        </div>
+        <div class="gallery-item">
+            <img src="P5.jpg" alt="Image 5" class="ImageItem parasites">
+        </div>
+    </div>
+        <!-- Second Section -->
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="S1.jpg" alt="Image 1" class="ImageItem saprophytes">
+            </div>
+            <div class="gallery-item">
+                <img src="S2.jpg" alt="Image 2" class="ImageItem saprophytes">
+            </div>
+            <div class="gallery-item">
+                <img src="S3.jpg" alt="Image 3" class="ImageItem saprophytes">
+            </div>
+            <div class="gallery-item">
+                <img src="S4.jpg" alt="Image 4" class="ImageItem saprophytes">
+            </div>
+            <div class="gallery-item">
+                <img src="S5.jpg" alt="Image 5" class="ImageItem saprophytes">
+            </div>
+            </div>
+            <!-- Third Section -->
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="G1.jpg" alt="Image 1" class="ImageItem grasshoppers">
+                </div>
+                <div class="gallery-item">
+                    <img src="G2.jpg" alt="Image 2" class="ImageItem grasshoppers">
+                </div>
+                <div class="gallery-item">
+                    <img src="G3.jpg" alt="Image 3" class="ImageItem grasshoppers">
+                </div>
+                <div class="gallery-item">
+                    <img src="G4.jpg" alt="Image 4" class="ImageItem grasshoppers">
+                </div>
+                <div class="gallery-item">
+                    <img src="G5.jpg" alt="Image 5" class="ImageItem grasshoppers">
+                </div>
+            </div>
+            <!-- Fourth section -->
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="W1.jpg" alt="Image 1" class="ImageItem wasps">
+                </div>
+                <div class="gallery-item">
+                    <img src="W2.jpg" alt="Image 2" class="ImageItem wasps">
+                </div>
+                <div class="gallery-item">
+                    <img src="W3.jpg" alt="Image 3" class="ImageItem wasps">
+                </div>
+                <div class="gallery-item">
+                    <img src="W4.jpg" alt="Image 4" class="ImageItem wasps">
+                </div>
+                <div class="gallery-item">
+                    <img src="W5.jpg" alt="Image 5" class="ImageItem wasps">
+                </div>
+            </div>
+    <!-- Cross Button -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
